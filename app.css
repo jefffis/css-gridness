@@ -9,15 +9,12 @@ html {
 	font: normal 100%/1.5 'Helvetica Neue', Arial, sans-serif;
 }
 body {
-	max-width: 1200px;
+	max-width: 1000px;
 	margin: auto;
 }
 h1, h2, h3 {
-	margin-bottom: .5rem;
-	line-height: 1.2;
-}
-#grid-items-headline {
 	margin-bottom: 1rem;
+	line-height: 1.2;
 }
 h3 {
 	margin-top: .5rem;
@@ -27,7 +24,7 @@ p + p {
 	margin-top: 1.5rem;
 }
 p + h2 {
-	margin-top: 2rem;
+	margin-top: 3rem;
 }
 aside a {
 	display: block;
