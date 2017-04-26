@@ -6,7 +6,7 @@
 }
 html {
 	background: #efefef;
-	font: normal 100%/1.5 sans-serif;
+	font: normal 100%/1.5 'Helvetica Neue', Arial, sans-serif;
 }
 body {
 	max-width: 1200px;
@@ -29,11 +29,15 @@ p + p {
 p + h2 {
 	margin-top: 2rem;
 }
-a {
+aside a {
 	display: block;
+	color: #666;
 }
 a:nth-child(n+2) {
 	margin-top: .75rem;
+}
+strong {
+	background: #F9FCA2;
 }
 #grid-container {
 	display: grid;
@@ -61,6 +65,12 @@ img {
 	width: 100%;
 	max-width: 100%;
 	margin: auto;
+}
+footer {
+	text-align: center;
+}
+footer a {
+	background: #F9FCA2;
 }
 
 /* item grid goes to 3 across */
