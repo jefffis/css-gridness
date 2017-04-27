@@ -35,6 +35,11 @@ a:nth-child(n+2) {
 }
 strong {
 	background: #F9FCA2;
+	padding: 0 .25rem;
+}
+hr {
+	height: 1.5rem;
+	background: none;
 }
 #grid-container {
 	display: grid;
@@ -116,7 +121,7 @@ footer a {
 }
 
 /* item grid goes to 4 across */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 900px) {
 	#item-container {
 		grid-template-columns: repeat(4, 1fr);
 	}
